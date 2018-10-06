@@ -7,16 +7,25 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { AcercaDeComponent } from './pages/acerca-de/acerca-de.component';
 
+import { AppRoutingModule } from './app-routing.module';
+import { DetallesComponent } from './pages/detalles/detalles.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
+import { UnaEstrellaComponent } from './hoteles/una-estrella/una-estrella.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
     InicioComponent,
-    AcercaDeComponent
+    AcercaDeComponent,
+    DetallesComponent,
+    ContactoComponent,
+    UnaEstrellaComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,17 @@
+
+node --version
+npm --version
+
+nvm install 8
+
+npm uninstall -g angular-cli
+
+npm cache clean
+
+npm install -g @angular/cli@latest
+
+ng -v
+
+ng serve --host 0.0.0.0 --port 8080 --disableHostCheck
+
+ng g c shared/header --spec="false"
