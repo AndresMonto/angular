@@ -21,7 +21,7 @@ import { UnaEstrellaComponent } from './hoteles/una-estrella/una-estrella.compon
     AcercaDeComponent,
     DetallesComponent,
     ContactoComponent,
-    UnaEstrellaComponent
+    UnaEstrellaComponent,
   ],
   imports: [
     BrowserModule,
